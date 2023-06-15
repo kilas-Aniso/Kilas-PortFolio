@@ -248,12 +248,14 @@ img{
 }
 .btn1 {
   display: inline-block;
-  padding: 5px 10px;
-  background-color: blue;
+  padding: 15px 10px;
+  /* background-color: blue; */
+  background-color: var(--first-color);
   color: white;
   text-decoration: none;
   border-radius: 5px;
-  margin-top: -6%;
+  margin-left: -16%;
+  /* margin-top: -6%; */
 }
 
 
