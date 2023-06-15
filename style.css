@@ -10,6 +10,7 @@
 :root{
   --first-color: #4070F4;
   --second-color: #0E2431;
+  
 }
 /* fonts */
 :root{
@@ -196,7 +197,7 @@ img{
 .home{
   height: calc(100vh - 3rem);
   row-gap: 1rem;
-  margin-top: 8%;
+  margin-top: 5%;
 }
 .home__data{
   align-self: center;
@@ -217,6 +218,7 @@ img{
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
   color: var(--second-color);
+  margin-top: -5%;
 }
 .home__social-icon:hover{
   color: var(--first-color);
@@ -238,10 +240,22 @@ img{
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
+  margin-top: -10%;
 }
 .button:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
+ 
 }
+.btn1 {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: -6%;
+}
+
 
 /* --------------------About section ------------------------ */
 
@@ -328,7 +342,7 @@ img{
   width: 85%;
 }
 .skills__ui{
-  width: 80%;
+  width: 50%;
 }
 
 /* -------------work---------------------------- */
